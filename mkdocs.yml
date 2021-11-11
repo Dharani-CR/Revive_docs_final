@@ -1,0 +1,54 @@
+site_name: Revive
+copyright: Copyright@2021 - Gain-Insights Solutions Private Limited
+
+nav:
+    - Introduction:
+      - Introduction : 'index.md'
+      - Architecture : 'Architecture.md'
+    - Getting started :
+      - Installation : 'installation.md'
+      - Get Started with Revive  : 'userguide.md'
+      - Migration stats : 'migrationstats.md'
+      - Version : 'version.md'
+    - Tableau to Power BI: 
+      - Datamodel: 'tableau/backend.md'
+      - Visualisation : 'tableau/frontend.md'
+    - Obiee to Power Bi :
+      - Datamodel : 'obiee/backend.md'
+      - Visualisation : 'obiee/frontend.md'
+    - Limitation : "limitation.md"
+    
+  
+theme:
+  name: 'material'
+  favicon: assets/logo.png
+  logo: img/logo.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - content.code.annotate
+   
+    - navigation.indexes
+    # - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+extra:  
+  icon:
+    logo: assets/logo.png
